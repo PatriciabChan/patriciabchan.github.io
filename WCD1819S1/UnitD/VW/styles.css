@@ -63,7 +63,6 @@ aside {
   width: 35%;
 	padding:1em 0;
    background-color: burlywood;
-   float: both;
 }
 
 aside p {
@@ -83,8 +82,4 @@ footer {
 
 footer p {
 	margin: 0.1em;
-}
-footer p.accent {
-	color : goldernrod;
-	
 }

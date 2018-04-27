@@ -1,0 +1,88 @@
+﻿/* 
+   Revisions Bookstore and Cafe style sheet 
+   Filename: styles.css
+
+   Author: Patriciab Chan  
+   Date: 27/04/2018
+   HTML5 and CSS3 Illustrated Unit D, Visual Workshop
+ */
+/*reset styles */ 
+ article, body, div, footer, header, h1, h2, p {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+/* body and page container */
+body {
+   background-color: floralwhite;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: burlywood;
+  border-bottom: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  
+}
+
+/* headings */
+header {
+   text-align: center;
+   color: navy;
+   background-color: lightblue;
+}
+
+h1 {
+	padding: 0.4em;
+}
+
+h2 {
+	padding: 0.4em 0.6em;
+}
+
+/* main content */
+article {
+   background-color: white;
+   width: 65%;
+   float: right;
+}
+
+article p {
+	padding: 0 2em 0.75em;
+}
+
+
+/* sidebar */
+aside {
+  width: 35%;
+	padding:1em 0;
+   background-color: burlywood;
+   float: both;
+}
+
+aside p {
+	padding: 0.4em 0;
+  margin: 0 2em;
+	
+}
+
+/* footer section */
+footer {
+  padding: 0.6em;
+  color: navy;
+  background-color: lightblue;
+  text-align: right;
+  clear: right;
+}
+
+footer p {
+	margin: 0.1em;
+}
+footer p.accent {
+	color : goldernrod;
+	
+}
